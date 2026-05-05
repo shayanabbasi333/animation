@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ 
+
+
+
+
+
+.animation{
+    position: relative;
+}
+
+
+.animation img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation: ball 10s ease 0s 1 normal;
+}
+
+@keyframes ball {
+
+  0% {
+    transform: translate(0vw, 0vh); 
+  }
+
+  10% {
+    transform: translate(10vw, 70vh); 
+  }
+
+  20% {
+    transform: translate(20vw, 0vh); 
+  }
+
+  30% {
+    transform: translate(30vw, 70vh);
+  }
+
+  40% {
+    transform: translate(40vw, 0vh);
+  }
+
+  50% {
+    transform: translate(50vw, 70vh);
+  }
+
+  60% {
+    transform: translate(60vw, 0vh);
+  }
+
+  70% {
+    transform: translate(70vw, 70vh);
+  }
+
+  80% {
+    transform: translate(80vw, 0vh);
+  }
+
+   90% {
+    transform: translate(90vw, 70vh);
+  }
+
+  100% {
+    transform: translate(100vw, 0vh);
+  } 
+}
